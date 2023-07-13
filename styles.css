@@ -15,13 +15,14 @@
 #nav{
     height: 130px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0 120px;
     gap: 50px;
     position: fixed;
+    z-index: 99;
 }
 
 #nav img{
